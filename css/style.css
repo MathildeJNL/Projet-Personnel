@@ -78,7 +78,6 @@ h1 {
 
 .frosted-box{
     width: 90%;
-    height: 55%;
     position: relative;
     background: inherit;
     overflow: hidden;
@@ -86,7 +85,8 @@ h1 {
     z-index: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
     color: white;
     border-radius: 12px;
     padding: 20px;
@@ -99,6 +99,14 @@ h1 {
     inset: -20px;
     filter: blur(10px);
     z-index: -1;
+}
+
+.parag{
+    text-align: center;
+    font-size: 25px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row; */
 }
 
 /*Paramètres généraux du bloc description*/
@@ -197,7 +205,6 @@ footer ul li a{
 @media all and (min-width: 769px) and (max-width: 1025px){
     .frosted-box{
         width: 90%;
-        height: 90%;
     }
 
 }
@@ -220,15 +227,6 @@ footer ul li a{
         font-size: 12px;
         padding: 10px 10px;
         margin: 10px;
-    }
-    
-    .frosted-box{
-        margin: 10px;
-        height: 80%;
-    }
-
-    .container{
-        height: 200vh;
     }
 
     .social{
