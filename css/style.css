@@ -84,10 +84,12 @@ h1 {
     color: black;
     font-size: 18px;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
 }
 
 .frosted-box{
-    width: 90%;
+    width: 70%;
     position: relative;
     background: inherit;
     overflow: hidden;
@@ -111,9 +113,10 @@ h1 {
     z-index: -1;
 }
 
-.parag{
+.parag {
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
+    margin: 5px;
     /* display: flex;
     justify-content: center;
     flex-direction: row; */
@@ -122,15 +125,15 @@ h1 {
 /*Paramètres généraux du bloc description*/
 
 h2{
-    padding: 25px;
     font-size: 30px;
+    text-align: center;
 }
 
 #my-description{
     text-align: center;
 }
 
-#my-description p{
+#guide{
     font-size: 25px;
 }
 
@@ -140,6 +143,12 @@ h2{
     font-size: 25px;
     font-weight: 500;
     padding: 15px;
+}
+
+#italic{
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -15px;
 }
 
 
@@ -249,8 +258,12 @@ footer ul li a{
         width: 80%;
     }
     
+    h2{
+        font-size: 22px;
+    }
+
     .parag{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     #logo{
