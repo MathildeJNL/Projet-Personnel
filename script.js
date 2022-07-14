@@ -6,12 +6,6 @@ projectOne.addEventListener("click", function(event){
 
 const errorMess = "Ce projet n\'est pas encore disponible... Learning in progress :)";
 
-let projectFive = document.getElementById("projectFive");
-projectFive.addEventListener("click", function(event){
-    event.preventDefault();
-        alert(errorMess);
-})
-
 let projectSix = document.getElementById("projectSix");
 projectSix.addEventListener("click", function(event){
     event.preventDefault();
