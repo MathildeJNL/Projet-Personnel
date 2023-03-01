@@ -178,6 +178,10 @@ footer ul li a{
         padding: 5px;
     }
 
+    .fa-2x {
+        font-size: 1.2em;
+    }
+
     #logo{
         height: 50px;
         padding: 10px;

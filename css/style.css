@@ -23,7 +23,7 @@ body{
 }
 
 .contact:hover{
-    background: #df98ad;
+    background: #B4C8D6;
     color: #fff;    
     transition : all .5s;
 }
@@ -253,8 +253,13 @@ footer ul li a{
         margin: 0;
         padding: 5px;
     }
+
     .frosted-box{
         width: 80%;
+    }
+
+    .fa-2x {
+        font-size: 1.2em;
     }
     
     h2{
