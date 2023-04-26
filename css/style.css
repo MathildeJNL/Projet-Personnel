@@ -116,6 +116,7 @@ h1 {
     text-align: center;
     font-size: 18px;
     margin: 5px;
+    line-height: 1.5em;
     /* display: flex;
     justify-content: center;
     flex-direction: row; */
@@ -148,6 +149,29 @@ h2{
     font-style: italic;
     font-size: 20px;
     margin-top: -15px;
+}
+
+.lien_form{
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    text-align: center;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: .25px;
+    line-height: normal;
+    padding: 11px 24px;
+    margin: 20px;
+    display: flex;
+}
+
+.lien_form:hover{
+    background: #B4C8D6;
+    color: #fff;    
+    transition : all .5s;
 }
 
 
@@ -241,6 +265,12 @@ footer ul li a{
     }
 
     .contact{
+        font-size: 12px;
+        padding: 10px 10px;
+        margin: 10px;
+    }
+
+    .lien_form{
         font-size: 12px;
         padding: 10px 10px;
         margin: 10px;
