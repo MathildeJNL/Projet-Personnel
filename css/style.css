@@ -12,7 +12,6 @@ body{
     box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
     box-sizing: border-box;
     color: #3c4043;
-    /* font-size: 14px; */
     font-weight: 500;
     font-family: inherit;
     letter-spacing: .25px;
@@ -22,10 +21,22 @@ body{
     display: flex;
 }
 
+.contact {
+    background-color: #fff;
+    color: #020202;
+    transition: all .5s ease-in-out;
+}
+
 .contact:hover{
     background: #B4C8D6;
     color: #fff;    
     transition : all .5s;
+}
+
+.contact:not(:hover) {
+    background-color: #fff;
+    color: #020202;
+    transition: all .5s ease-in-out;
 }
 
 #navbar a{
@@ -44,7 +55,6 @@ body{
     height: 80px;
     padding: 15px;
 }
-
 
 /*SECTION CORPS = LOGO + H1*/
 h1 {
@@ -87,6 +97,11 @@ h1 {
     justify-content: center;
 }
 
+.container b{
+    /*color: #40A2E3;*/
+    color: #91C8E4;
+}
+
 .frosted-box{
     width: 70%;
     position: relative;
@@ -117,9 +132,6 @@ h1 {
     font-size: 18px;
     margin: 5px;
     line-height: 1.5em;
-    /* display: flex;
-    justify-content: center;
-    flex-direction: row; */
 }
 
 /*Paramètres généraux du bloc description*/
@@ -166,6 +178,7 @@ h2{
     padding: 11px 24px;
     margin: 20px;
     display: flex;
+    transition: all .5s ease-in-out;
 }
 
 .lien_form:hover{
@@ -174,6 +187,11 @@ h2{
     transition : all .5s;
 }
 
+.lien_form:not(:hover) {
+    background-color: #fff;
+    color: #020202;
+    transition: all .5s ease-in-out;
+}
 
 /*BLOC MES PROJETS*/
 
@@ -201,13 +219,20 @@ h2{
     font-size: 35px;
     font-weight: 500;
     font-family: inherit;
-    padding: 11px 24px
+    padding: 11px 24px;
+    transition: all .5s ease-in-out;
 }
 
 #button-project:hover{
     background: #020202;
     color: #fff;    
     transition : all .5s;
+}
+
+.button-project:not(:hover) {
+    background-color: #fff;
+    color: #020202;
+    transition: all .5s ease-in-out;
 }
 
 /*FOOTER*/
